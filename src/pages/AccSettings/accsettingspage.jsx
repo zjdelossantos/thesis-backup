@@ -29,7 +29,7 @@ const ProfilePage = () => {
 
           <div className="flex flex-wrap gap-8 justify-center">
             {/* Profile Card */}
-            <div className="bg-[#1E222A] rounded-2xl p-6 w-72 text-center shadow-lg border border-white relative">
+            <div className="bg-[#1E222A] rounded-2xl p-6 w-72 text-center shadow-lg border border-white">
               
               {/* Hidden File Input */}
               <input
@@ -42,7 +42,7 @@ const ProfilePage = () => {
 
               {/* Profile Image (Clickable for Upload) */}
               <div
-                className="relative mt-4 cursor-pointer group"
+                className="mt-4 cursor-pointer group"
                 onClick={() => document.getElementById("upload-img").click()}
               >
                 {profileImage ? (

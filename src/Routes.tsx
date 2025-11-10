@@ -10,7 +10,8 @@ import HomePage from "./pages/HomePage/homepage.jsx";
 import ProfilePage from "./pages/AccSettings/accsettingspage.jsx";
 import GradeViewing from "./pages/GradeViewing/gradeViewing.jsx";
 import TaskPage from "./pages/Task/task.jsx";
-
+import NotificationPage from "./pages/Notifications/notification.jsx";
+import LecturesPage from "./pages/Lectures/lecture.jsx";
 
 
 export default function Routes() {
@@ -25,6 +26,8 @@ export default function Routes() {
       <Route path="/accsettings" element={<ProfilePage />} />
       <Route path="/grade-viewing" element={<GradeViewing />} />
       <Route path="/task" element={<TaskPage />} />
+      <Route path="/notifications" element={<NotificationPage />} />
+      <Route path="/lectures" element={<LecturesPage />} />
 
     </ReactRoutes>
   );
